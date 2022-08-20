@@ -371,10 +371,15 @@ header nav .form i {
 @media (max-width: 767px) {
   .design {
     flex-direction: column-reverse;
-    min-height: 980px;
+    /* min-height: 980px; */
+    height: 840px;
   }
   .design .text {
     width: 100%;
+    margin-bottom: 22px;
+  }
+  .design .image img {
+    margin-top: -150px;
   }
 }
 /* End Design */
